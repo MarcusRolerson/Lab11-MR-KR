@@ -1,3 +1,7 @@
+# https://github.com/MarcusRolerson/Lab11-MR-KR
+# Partner 1: Kelly Rosa
+# Partner 2: Marcus Rolerson
+
 import unittest
 import math
 from calculator import *
