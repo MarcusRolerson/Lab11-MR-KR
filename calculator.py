@@ -4,7 +4,7 @@ calculator.py
 
 One function per operation, in order.
 """
-import math 
+import math
 
 
 def square_root(a):
@@ -45,5 +45,4 @@ def logarithm(a, b):
 
 def exponent(a, b):
     return a ** b
-
 
