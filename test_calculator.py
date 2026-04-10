@@ -1,6 +1,6 @@
 import unittest
 from calculator import *
-
+import math
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
     # def test_add(self): # 3 assertions
@@ -49,7 +49,6 @@ class TestCalculator(unittest.TestCase):
     #     #    square_root(NUM)
     #     # Test basic function
     #     fill in code
-    ##########################
 
 # Do not touch this
 if __name__ == "__main__":
