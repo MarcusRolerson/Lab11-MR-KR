@@ -8,13 +8,13 @@ from calculator import *
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
     def test_add(self):
-        self.assertequal(add(10, 5), 15)
-        self.assertequal(add(-20, 5), 5)
-        self.assertequal(add(3000, 1000), 4000)
+        self.assertEqual(add(10, 5), 15)
+        self.assertEqual(add(-20, 5), 5)
+        self.assertEqual(add(3000, 1000), 4000)
     def test_subtract(self):
-        self.assertequal(subtract(10, 5), 5)
-        self.assertequal(subtract(-20, 5), -25)
-        self.assertequal(subtract(3000, 1000), 2000)
+        self.assertEqual(subtract(10, 5), 5)
+        self.assertEqual(subtract(-20, 5), -25)
+        self.assertEqual(subtract(3000, 1000), 2000)
 
     #     fill in code
     # ##########################
