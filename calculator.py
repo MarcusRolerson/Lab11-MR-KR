@@ -24,10 +24,10 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
-def mul(a, b):
+def multiply(a, b):
     return a * b
 
-def div(a, b):
+def divide(a, b):
     if a == 0:
         raise ZeroDivisionError("Cannot divide by zero.")
     return b / a
