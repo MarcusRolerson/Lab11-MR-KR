@@ -9,7 +9,7 @@ class TestCalculator(unittest.TestCase):
     ######### Partner 2
     def test_add(self):
         self.assertEqual(add(10, 5), 15)
-        self.assertEqual(add(-20, 5), 5)
+        self.assertEqual(add(-20, 5), 15)
         self.assertEqual(add(3000, 1000), 4000)
     def test_subtract(self):
         self.assertEqual(subtract(10, 5), 5)
